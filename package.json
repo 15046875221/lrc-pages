@@ -1,0 +1,42 @@
+{
+  "name": "lrc-pages",
+  "version": "0.1.0",
+  "description": "static web app workflow",
+  "keywords": [
+    "lrc-pages",
+    "zce"
+  ],
+  "repository": "zce/lrc-pages",
+  "license": "MIT",
+  "author": "liangruicheng <3048617694@qq.com> (https://github.com/15046875221)",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "jest --coverage",
+    "prepare": "npm run lint && npm run test"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "26.6.3",
+    "standard": "16.0.3"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
