@@ -1,6 +1,6 @@
 {
   "name": "lrc-pages",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "static web app workflow",
   "keywords": [
     "lrc-pages",
@@ -15,8 +15,7 @@
     "bin"
   ],
   "bin": "bin/lrc-pages.js",
-  "scripts": {
-  },
+  "scripts": {},
   "renovate": {
     "extends": [
       "zce"
@@ -59,4 +58,3 @@
     "registry": "https://registry.npmjs.org"
   }
 }
-
