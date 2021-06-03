@@ -11,12 +11,11 @@
   "author": "liangruicheng <3048617694@qq.com> (https://github.com/15046875221)",
   "main": "lib/index.js",
   "files": [
-    "lib"
+    "lib",
+    "bin"
   ],
+  "bin": "bin/lrc-pages.js",
   "scripts": {
-    "lint": "standard --fix",
-    "test": "jest --coverage",
-    "prepare": "npm run lint && npm run test"
   },
   "renovate": {
     "extends": [
